@@ -29,6 +29,10 @@ func NewMap() *Map {
 	return &Map{}
 }
 
+func (m *Map) HACK_Keys() [][]byte {
+	return m.keys
+}
+
 func (m *Map) Get(key []byte) []byte {
 	if m.length == 0 {
 		return nil
