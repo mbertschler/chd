@@ -1,4 +1,4 @@
-module github.com/remerge/chd
+module github.com/mbertschler/chd
 
 require (
 	github.com/alecthomas/unsafeslice v0.0.0-20151125220333-763102eafe59
